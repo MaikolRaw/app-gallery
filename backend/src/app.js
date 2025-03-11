@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 
 // Configuración de CORS (ajusta la URL según corresponda)
 app.use(cors({
-  origin: ['http://localhost:8100',],
+  origin: ['http://localhost:8100'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true
 }));
